@@ -1,0 +1,219 @@
+
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+body{
+    width:1920px;
+    height:1018px;
+    background-image:url("img/mandalorian_background.jpg");
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+/* header */
+#cabecera{
+    background-image: url('img/mandalorian_cab.jpg');
+    width:1010px;
+    height:120px;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#logo{
+    background-image: url('img/mandalorian_logo.jpg');
+    width:200px;
+    height:60px;
+    margin-top:30px;
+    margin-left:30px;
+    position:absolute;
+}
+/* redes sociales */
+#social{
+    width:140px;
+    height:40px;
+    margin-top:40px;
+    margin-right:20px;
+    float:right;
+	display:flex;
+	justify-content: space-around;
+}
+.rrss{
+    background: #e6e7e9;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+/* menú */
+nav{
+    width:1010px;
+    height:50px;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    list-style:none;
+}
+ul{
+    float:right;
+	width: 100%;
+	display:flex;
+	justify-content: space-around;
+}
+nav li{
+    text-align: center;
+    list-style: none;
+    width:200px;
+    height:50px;
+    background-color:#e8ab6c;
+}
+nav li a{
+    text-decoration: none;
+    color:black;
+    position:relative;
+    top:30%;
+    font-family: 'Dela Gothic One', cursive;
+}
+nav li a:hover{
+    color: #694c60;
+}
+/* main */
+#container{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+#container .planetas{
+    margin:5px;
+    background-color:#e8ab6c;
+    width: 330px;
+    height: 200px; 
+    display:inline-block;
+}
+.planetas img{
+    width: 330px;
+    height: 170px;
+}
+.planetas-info a{
+    font-size: 15px;
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 300ms;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.planetas-info a:hover{
+   color: #694c60;
+   transition: all 300ms;  
+}
+.acceso{
+    background:black;
+    color:#e8ab6c;
+    border: none;
+    padding:2px;
+    border-radius: 5px;
+    margin-left: 170px;
+}
+.acceso:hover{
+    background:#694c60;
+    color:black;
+    border: none;
+    padding:2px;
+    transition: all 300ms;
+}
+/* contenido central */
+#principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenido{
+    width: 1010px;
+    height: 450px;
+    margin-top: 20px;
+    display: flex;
+}
+#serie,
+#episodio1,
+#episodio2{
+	margin-top: 10px;
+	position:relative;
+	width: 100%;
+	z-index:1;
+	padding-top: 1%;
+	padding-bottom: 4%;
+}
+.img1,
+.img2,
+.img3{
+	margin-left:2%;
+    width:150px;
+    height:75px;
+}
+.titulo{
+    margin-left:31%;
+}
+p{
+	padding:1%;
+	width:70%;
+	float:right;
+	margin-bottom:10px;
+}
+.vermas{
+    border: none;
+    background-color: #e8ab6c;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    display:flex;
+    display:inline-block;
+    cursor:pointer;
+}
+/* asides */
+aside img{
+    width: 200px;
+    height: 450px;
+}
+#articulos{
+    background:#e8ab6c;
+    width: 610px;
+    height: 450px;
+    margin-left:auto;
+    margin-right:auto;
+}
+footer{
+    background:black;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 1010px;
+    height: 80px; 
+    text-align: center;
+}
+#info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+footer h5{
+    color:#694c60;
+    text-transform: uppercase;
+}
+footer p{
+    color:#e8ab6c;
+}
+#contacto{
+    margin-top:15px;
+}
+
+#contacto a{
+    text-decoration: none;
+    color:#c8878b;
+}
+#copyright{
+    color:#c8878b;
+    margin-top: 3%;
+    margin-right:5%;
+}
